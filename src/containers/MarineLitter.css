@@ -1,0 +1,53 @@
+body{
+    background: url('https://wallpapertag.com/wallpaper/full/f/4/e/831533-popular-ocean-background-images-2560x1600-for-ipad-pro.jpg')
+}
+
+.mygame{
+  font-family: "Indie Flower", cursive;
+}
+
+.disabled {
+  pointer-events: none;
+  filter: grayscale(100%);
+}
+
+.enabled {
+  filter: grayscale(0%);
+  pointer-events: all;
+}
+
+.game {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: gray 1px solid;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game p{
+  font-weight: bold;
+  font-size: 18px
+}
+
+.game-canvas{
+  background: url('../img/marinelittersources.jpg') center
+}
+
+.img-fluid{
+  margin-bottom: 15px
+}
+
+.action{
+  border: gray 1px solid;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  background: white;
+}
+
+.action:hover{
+  background: rgba(189, 186, 186);
+}
