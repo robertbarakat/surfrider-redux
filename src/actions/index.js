@@ -52,3 +52,10 @@ export const addActionCitoyenne = (num) => (
         num
     }
 );
+
+export const addTechnologie = (num) => (
+    {
+        type: 'ADD_TECHNOLOGIE',
+        num
+    }
+);

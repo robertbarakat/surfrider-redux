@@ -4,6 +4,7 @@ import { nbrInitiatives, coutInitiative} from './initiativeReducer';
 import { nbrRecyclages, coutRecyclage} from './recyclageReducer';
 import { nbrLois, coutLoi} from './loiReducer';
 import { nbrActionsCitoyennes, coutActionCitoyenne} from './actionCitoyenneReducer';
+import { nbrTechnologies, coutTechnologie} from './technoReducer';
 import { combineReducers } from 'redux';
 
 const allReducers = combineReducers({
@@ -21,7 +22,9 @@ const allReducers = combineReducers({
     nbrLois, 
     coutLoi,
     nbrActionsCitoyennes, 
-    coutActionCitoyenne
+    coutActionCitoyenne,
+    nbrTechnologies, 
+    coutTechnologie
 })
 
 export default allReducers;

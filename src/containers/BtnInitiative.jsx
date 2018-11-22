@@ -11,7 +11,7 @@ class BtnInitiative extends Component {
         return (
             <div>
                 <button className={`${cssInitiative}`} onClick={() => this.props.addInitiative(this.props.coutInitiative)}>
-                    +1 Initiative citoyenne <br />
+                    +1 Initiative océane <br />
                     <img src={imgNettoyage} alt='' width='45' /><br />
                     Coût: {this.props.coutInitiative}
                 </button>
